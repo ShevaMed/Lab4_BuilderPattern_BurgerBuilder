@@ -4,40 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using BurgerBuilderLib.Builders;
 
-
-namespace BurgerBuilderLib
+namespace BurgerBuilderLib.Director
 {
     public class Director
     {
-        public void MakeHamburger(Builder builder, string pathFileMeat, string pathFileBuns, string pathFileVegetables, string pathFileCondiments, string pathFileBurger)
+        public void MakeHamburger(IBuilder builder, string pathFileMeat, string pathFileBuns, string pathFileVegetables, string pathFileCondiments, string pathFileBurger)
         {
-            builder.Reset();
-            builder.FryMeat(pathFileMeat);
-            builder.HeatUpBuns(pathFileBuns);
-            builder.CutVegetables(pathFileVegetables);
-            builder.AddCondiments(pathFileCondiments);
-            builder.TogetherUpBurger(pathFileBurger);
+            builder.Reset()
+                .FryMeat(pathFileMeat)
+                .HeatUpBuns(pathFileBuns)
+                .CutVegetables(pathFileVegetables)
+                .AddCondiments(pathFileCondiments)
+                .TogetherUpBurger(pathFileBurger);
         }
 
-        public void MakeMcChicken(Builder builder, string pathFileMeat, string pathFileBuns, string pathFileVegetables, string pathFileCondiments, string pathFileBurger)
+        public void MakeMcChicken(IBuilder builder, string pathFileMeat, string pathFileBuns, string pathFileVegetables, string pathFileCondiments, string pathFileBurger)
         {
-            builder.Reset();
-            builder.FryMeat(pathFileMeat);
-            builder.HeatUpBuns(pathFileBuns);
-            builder.CutVegetables(pathFileVegetables);
-            builder.AddCondiments(pathFileCondiments);
-            builder.TogetherUpBurger(pathFileBurger);
+            builder.Reset()
+                .FryMeat(pathFileMeat)
+                .HeatUpBuns(pathFileBuns)
+                .CutVegetables(pathFileVegetables)
+                .AddCondiments(pathFileCondiments)
+                .TogetherUpBurger(pathFileBurger);
         }
 
-        public void MakeFiletOFish(Builder builder, string pathFileFish, string pathFileBuns, string pathFileVegetables, string pathFileCondiments, string pathFileBurger)
+        public void MakeFiletOFish(IBuilder builder, string pathFileFish, string pathFileBuns, string pathFileVegetables, string pathFileCondiments, string pathFileBurger)
         {
-            builder.Reset();
-            builder.FryMeat(pathFileFish);
-            builder.HeatUpBuns(pathFileBuns);
-            builder.CutVegetables(pathFileVegetables);
-            builder.AddCondiments(pathFileCondiments);
-            builder.TogetherUpBurger(pathFileBurger);
+            builder.Reset()
+                .FryMeat(pathFileFish)
+                .HeatUpBuns(pathFileBuns)
+                .CutVegetables(pathFileVegetables)
+                .AddCondiments(pathFileCondiments)
+                .TogetherUpBurger(pathFileBurger);
         }
     }
 }

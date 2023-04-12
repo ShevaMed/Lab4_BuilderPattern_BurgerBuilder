@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BurgerBuilderLib;
+using BurgerBuilderLib.Builders;
+using BurgerBuilderLib.Products;
+using BurgerBuilderLib.Director;
 
 namespace Lab4_BuilderPattern_BurgerBuilder
 {
@@ -18,7 +20,6 @@ namespace Lab4_BuilderPattern_BurgerBuilder
         public Form1()
         {
             InitializeComponent();
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -84,7 +85,6 @@ namespace Lab4_BuilderPattern_BurgerBuilder
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

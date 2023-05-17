@@ -1,6 +1,0 @@
-D:\My Files\Колледж\4 Курс\Конструювання програмного забезпечення\Lab4_BuilderPattern_BurgerBuilder\BurgerBuilderLib\bin\Debug\BurgerBuilderLib.dll
-D:\My Files\Колледж\4 Курс\Конструювання програмного забезпечення\Lab4_BuilderPattern_BurgerBuilder\BurgerBuilderLib\bin\Debug\BurgerBuilderLib.pdb
-D:\My Files\Колледж\4 Курс\Конструювання програмного забезпечення\Lab4_BuilderPattern_BurgerBuilder\BurgerBuilderLib\obj\Debug\BurgerBuilderLib.csproj.AssemblyReference.cache
-D:\My Files\Колледж\4 Курс\Конструювання програмного забезпечення\Lab4_BuilderPattern_BurgerBuilder\BurgerBuilderLib\obj\Debug\BurgerBuilderLib.csproj.CoreCompileInputs.cache
-D:\My Files\Колледж\4 Курс\Конструювання програмного забезпечення\Lab4_BuilderPattern_BurgerBuilder\BurgerBuilderLib\obj\Debug\BurgerBuilderLib.dll
-D:\My Files\Колледж\4 Курс\Конструювання програмного забезпечення\Lab4_BuilderPattern_BurgerBuilder\BurgerBuilderLib\obj\Debug\BurgerBuilderLib.pdb
